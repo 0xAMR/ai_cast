@@ -1,12 +1,20 @@
-import React from 'react';
-import './App.css';
+// Styling
+import './Global.css';
+import styled from 'styled-components';
 
-function App() {
+// Comps
+import Nav from './comps/Nav';
+
+const StApp = styled.div`
+  width: 100%;
+  max-width: 777px;
+  margin: 0 auto;
+`;
+
+export default function App() {
   return (
-    <div className="App">
-      <h1>Hello</h1>
-    </div>
+    <StApp>
+      <Nav />
+    </StApp>
   );
 }
-
-export default App;
