@@ -5,7 +5,7 @@ GPT3-generated podcasts via OpenAI's API
 ## Built with
 - TypeScript
 - React
-- Water CSS
+- awsm.css
 
 ## Available Scripts
 
