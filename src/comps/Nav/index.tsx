@@ -13,6 +13,20 @@ const StNav = styled.nav`
   & ul {
     margin: 1em 0;
     width: 100%;
+
+    & li {
+      font-size: 1.1em;
+
+      & a {
+        text-decoration: none;
+        color: #1a85cc;
+
+        &:hover {
+          text-decoration: underline;
+          color: #0099ff;
+        }
+      }
+    }
   }
 `;
 
@@ -29,7 +43,7 @@ export default function Nav({ ...props }) {
           <a href="/">Methodology</a>
         </li>
         <li>
-          <a href="/">API</a>
+          <a href="/">Credits</a>
         </li>
       </ul>
     </StNav>

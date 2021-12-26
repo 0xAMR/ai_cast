@@ -4,6 +4,7 @@ import styled from 'styled-components';
 
 // Comps
 import Nav from './comps/Nav';
+import Listen from './comps/Listen';
 
 const StApp = styled.div`
   width: 100%;
@@ -15,6 +16,7 @@ export default function App() {
   return (
     <StApp>
       <Nav />
+      <Listen />
     </StApp>
   );
 }
