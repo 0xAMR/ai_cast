@@ -34,7 +34,7 @@ export default function Nav({ ...props }) {
   return (
     <StNav>
       <h1>AI Cast</h1>
-      <span>GPT3-generated podcasts via OpenAI's API</span>
+      <span>GPT3-Generated Podcasts Voiced by AWS Polly</span>
       <ul>
         <li>
           <a href="/">Listen</a>
