@@ -6,6 +6,10 @@ import 'react-h5-audio-player/lib/styles.css';
 import AudioPlayer from 'react-h5-audio-player';
 
 const StListen = styled.div`
+  & h2 {
+    margin: 0;
+  }
+
   & .audio__player {
     background-color: #99c0c9;
     border-radius: 5px;
@@ -204,8 +208,43 @@ export default function Listen({ ...props }) {
           waking her up every 3 hours.
         </p>
       </details>
-      <h3>Episode 3: Dolor Sit</h3>
-      <AudioPlayer className="audio__player" src="x" />
+      <h3>Episode 3: Today's News</h3>
+      <AudioPlayer className="audio__player" src="/audio/ep3.mp3" />
+      <details>
+        <summary>View Transcript</summary>
+        <p>
+          Today's news: Recruiting doesn't always pay. Résumés, tests, getting
+          out there – is this all even worthwhile? President Trump's first
+          priority. The NCAA's answer? Better negotiate. Don't bother asking for
+          a loan, then. How to speed up a credit recovery program. FCC must act
+          on data collection requirements. College basketball: What happens
+          next? The scandal has shocked the sport. Finals season: Are you
+          confused by the new deadlines? Some free agents did what teams usually
+          don't do – they waited until July to sign. My favorite dating app will
+          move to the summer, too. Loveflutter may be adding a new feature.
+          Colleges take a plunge on conference realignment. Partisan politics
+          and NCAA rules are influencing decisions. College football's new early
+          signing period offers more mystery. With a 30-day window and a slew of
+          Power 5 recruits. Make your decision now, and your children will thank
+          you. Go here to see what college needs to do to improve. Should you be
+          friends with your child's college roommate? Your personal best. Want
+          to better prepare for college? Talk to someone who has been there.
+          Researchers at UCLA say most students need more money. Where to start
+          paying off your college debt. See how much you'll be paying when you
+          are done. Delay your college decision. The sooner you finish, the less
+          you'll have to pay. Why many consumers feel overwhelmed. Financial-aid
+          expert Todd Berger has advice for navigating the educational-loan
+          maze. Why going to college is more expensive than ever. "Money is
+          being funneled into marketing, not education." Elsewhere on
+          MarketWatch. Trump's new top adviser is former Breitbart editor Steve
+          Bannon. President Donald Trump announced on Friday he is appointing
+          former Breitbart News editor Steve Bannon to be his chief strategist
+          in the White House. Trump hasn't given up on TPP deal, despite his
+          resistance. Trump talked up the Trans-Pacific Partnership deal on
+          Friday as an example of how he will get tough on trade and
+          globalization.
+        </p>
+      </details>
     </StListen>
   );
 }

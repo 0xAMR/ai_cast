@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const StNav = styled.nav`
   & h1 {
-    margin: 1em 0 0.25em 0;
+    margin: 0 0 0.25em 0;
   }
 
   & span {
@@ -17,13 +17,15 @@ const StNav = styled.nav`
     & li {
       font-size: 1.1em;
 
-      & a {
+      & button {
         text-decoration: none;
+        border: none;
         color: #1a85cc;
 
         &:hover {
           text-decoration: underline;
           color: #0099ff;
+          border: none;
         }
       }
     }
@@ -34,16 +36,18 @@ export default function Nav({ ...props }) {
   return (
     <StNav>
       <h1>AI Cast</h1>
-      <span>GPT3-Generated Podcasts Voiced by AWS Polly</span>
+      <span>GPT3-Generated Podcasts Voiced by AWS Polly Neural</span>
       <ul>
         <li>
-          <a href="/">Listen</a>
+          <button onClick={() => props.click('listen')}>Listen</button>
         </li>
         <li>
-          <a href="/">Methodology</a>
+          <button onClick={() => props.click('methodology')}>
+            Methodology
+          </button>
         </li>
         <li>
-          <a href="/">Credits</a>
+          <button onClick={() => props.click('credits')}>Credits</button>
         </li>
       </ul>
     </StNav>
