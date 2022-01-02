@@ -15,6 +15,8 @@ const StApp = styled.div`
   height: 100%;
   max-width: 777px;
   margin: 0 auto;
+  padding: 0 1em;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
 

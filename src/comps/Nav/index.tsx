@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const StNav = styled.nav`
   & h1 {
-    margin: 0 0 0.25em 0;
+    margin: 0.5em 0 0.25em 0;
   }
 
   & span {

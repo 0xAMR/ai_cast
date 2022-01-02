@@ -245,6 +245,70 @@ export default function Listen({ ...props }) {
           globalization.
         </p>
       </details>
+      <h3>Episode 4: Lorem Ipsum</h3>
+      <AudioPlayer className="audio__player" src="/audio/ep4.mp3" />
+      <details>
+        <summary>View Transcript</summary>
+        <p>
+          Today's news: Recruiting doesn't always pay. Résumés, tests, getting
+          out there – is this all even worthwhile? President Trump's first
+          priority. The NCAA's answer? Better negotiate. Don't bother asking for
+          a loan, then. How to speed up a credit recovery program. FCC must act
+          on data collection requirements. College basketball: What happens
+          next? The scandal has shocked the sport. Finals season: Are you
+          confused by the new deadlines? Some free agents did what teams usually
+          don't do – they waited until July to sign. My favorite dating app will
+          move to the summer, too. Loveflutter may be adding a new feature.
+          Colleges take a plunge on conference realignment. Partisan politics
+          and NCAA rules are influencing decisions. College football's new early
+          signing period offers more mystery. With a 30-day window and a slew of
+          Power 5 recruits. Make your decision now, and your children will thank
+          you. Go here to see what college needs to do to improve. Should you be
+          friends with your child's college roommate? Your personal best. Want
+          to better prepare for college? Talk to someone who has been there.
+          Researchers at UCLA say most students need more money. Where to start
+          paying off your college debt. See how much you'll be paying when you
+          are done. Delay your college decision. The sooner you finish, the less
+          you'll have to pay. Why many consumers feel overwhelmed. Financial-aid
+          expert Todd Berger has advice for navigating the educational-loan
+          maze. Why going to college is more expensive than ever. "Money is
+          being funneled into marketing, not education." Elsewhere on
+          MarketWatch. Trump's new top adviser is former Breitbart editor Steve
+          Bannon. President Donald Trump announced on Friday he is appointing
+          former Breitbart News editor Steve Bannon to be his chief strategist
+          in the White House. Trump hasn't given up on TPP deal, despite his
+          resistance. Trump talked up the Trans-Pacific Partnership deal on
+          Friday as an example of how he will get tough on trade and
+          globalization.
+        </p>
+      </details>
+      <h3>Episode 5: Mr Kumar</h3>
+      <AudioPlayer className="audio__player" src="/audio/ep5.mp3" />
+      <details>
+        <summary>View Transcript</summary>
+        <p>
+          In the last episode of AI Cast, I had an opportunity to ask Mr. Kumar
+          about his visit to The White House and what the future might hold for
+          Amazon Web Services. This week, I had the privilege of interviewing
+          Mr. Kumar to discuss the AI integration and techniques of the recently
+          announced AWS DeepRacer and other artificial intelligence and
+          cloud-computing-related topics. From the transcript, some highlights:
+          Envisioning A Perfect World Nitzan tells me "At this point, we're not
+          really looking to build our own car... so at least this would not be
+          your personal car. It's, I think, somewhat comparable to the Google
+          Car." "This is a really great testbed for developing and training the
+          algorithms." "If you can simulate an accident in a world where these
+          things will be developed and developed, I think that's very valuable."
+          "This is a completely safe environment where we can test these
+          systems. These experiments will be safer than anything we do today."
+          Asked about his visit to the White House, Kumar said: "Well, actually,
+          we were invited there as well. Amazon was just providing support for
+          the AI4ALL program. They've been funding some of the initiatives in
+          terms of giving internships and training opportunities to students
+          with AI interest or backgrounds, so it's a pretty big deal, actually.
+          So, we were just, basically, there to support that."
+        </p>
+      </details>
     </StListen>
   );
 }
