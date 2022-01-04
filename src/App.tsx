@@ -49,41 +49,32 @@ export default function App() {
       {active === 'methodology' && (
         <Page title="Methodology">
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti
-            quas incidunt officia doloremque nesciunt. Quae corporis
-            consequuntur autem aliquam deserunt. Dolorum totam nisi et amet
-            voluptatum ea debitis earum ullam, exercitationem officia ad
-            delectus nam soluta itaque asperiores dolore pariatur nemo ut harum
-            odit voluptates quos doloribus quia quisquam. Perferendis iusto
-            itaque alias sint! Expedita consectetur eveniet ipsa exercitationem,
-            reprehenderit repellendus. Vel corrupti saepe pariatur labore facere
-            sequi aliquam assumenda. Nostrum necessitatibus aperiam esse,
-            voluptatibus beatae ullam id! Recusandae voluptate totam hic laborum
-            in. Cupiditate, rem hic provident blanditiis ad quo aliquid tempore
-            porro, temporibus odio nobis aliquam eaque qui!
+            <ul>
+              <li>GPT-3 was provided with an initial sentence as input</li>
+              <li>
+                Upon text generation, the result was 'voiced' by AWS Polly
+              </li>
+              <li>The sound was edited using Audacity</li>
+            </ul>
           </p>
         </Page>
       )}
       {active === 'credits' && (
         <Page title="Credits">
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti
-            quas incidunt officia doloremque nesciunt. Quae corporis
-            consequuntur autem aliquam deserunt. Dolorum totam nisi et amet
-            voluptatum ea debitis earum ullam, exercitationem officia ad
-            delectus nam soluta itaque asperiores dolore pariatur nemo ut harum
-            odit voluptates quos doloribus quia quisquam. Perferendis iusto
-            itaque alias sint! Expedita consectetur eveniet ipsa exercitationem,
-            reprehenderit repellendus. Vel corrupti saepe pariatur labore facere
-            sequi aliquam assumenda. Nostrum necessitatibus aperiam esse,
-            voluptatibus beatae ullam id! Recusandae voluptate totam hic laborum
-            in. Cupiditate, rem hic provident blanditiis ad quo aliquid tempore
-            porro, temporibus odio nobis aliquam eaque qui!
+            <ul>
+              <li>Text: GPT-3</li>
+              <li>Voices: AWS Polly (Neural)</li>
+              <li>Montage: Audacity</li>
+              <li>Music: Unminus</li>
+            </ul>
           </p>
         </Page>
       )}
       <footer>
-        <a href="x">© Andrei Racasan 2021 | Free & Open Source</a>
+        <a href="x">
+          © Andrei Racasan {new Date().getFullYear()} | Free & Open Source
+        </a>
       </footer>
     </StApp>
   );
