@@ -245,41 +245,32 @@ export default function Listen({ ...props }) {
           globalization.
         </p>
       </details>
-      <h3>Episode 4: Lorem Ipsum</h3>
+      <h3>Episode 4: Self Expression</h3>
       <AudioPlayer className="audio__player" src="/audio/ep4.mp3" />
       <details>
         <summary>View Transcript</summary>
         <p>
-          Today's news: Recruiting doesn't always pay. Résumés, tests, getting
-          out there – is this all even worthwhile? President Trump's first
-          priority. The NCAA's answer? Better negotiate. Don't bother asking for
-          a loan, then. How to speed up a credit recovery program. FCC must act
-          on data collection requirements. College basketball: What happens
-          next? The scandal has shocked the sport. Finals season: Are you
-          confused by the new deadlines? Some free agents did what teams usually
-          don't do – they waited until July to sign. My favorite dating app will
-          move to the summer, too. Loveflutter may be adding a new feature.
-          Colleges take a plunge on conference realignment. Partisan politics
-          and NCAA rules are influencing decisions. College football's new early
-          signing period offers more mystery. With a 30-day window and a slew of
-          Power 5 recruits. Make your decision now, and your children will thank
-          you. Go here to see what college needs to do to improve. Should you be
-          friends with your child's college roommate? Your personal best. Want
-          to better prepare for college? Talk to someone who has been there.
-          Researchers at UCLA say most students need more money. Where to start
-          paying off your college debt. See how much you'll be paying when you
-          are done. Delay your college decision. The sooner you finish, the less
-          you'll have to pay. Why many consumers feel overwhelmed. Financial-aid
-          expert Todd Berger has advice for navigating the educational-loan
-          maze. Why going to college is more expensive than ever. "Money is
-          being funneled into marketing, not education." Elsewhere on
-          MarketWatch. Trump's new top adviser is former Breitbart editor Steve
-          Bannon. President Donald Trump announced on Friday he is appointing
-          former Breitbart News editor Steve Bannon to be his chief strategist
-          in the White House. Trump hasn't given up on TPP deal, despite his
-          resistance. Trump talked up the Trans-Pacific Partnership deal on
-          Friday as an example of how he will get tough on trade and
-          globalization.
+          In our fourth episode, which airs on Friday, you will discover how
+          much the party phenomenon began and how the voice of self-expression,
+          courtesy of TV and music, took off in Nigeria. Learn how artistes like
+          Ebube Nwagbo, Kenke and Medikal, who are members of the burgeoning
+          Naija millennial generation of music stars, began pushing the envelope
+          with their fresh take on modernity. How did their voices, contemporary
+          twists on old and new Nigerian music speak to the huge youth of
+          Nigeria? What was their reaction? How did the songs spread through
+          music and youth groups like Rasta Ryders to become an acceptable part
+          of Nigerian lifestyle? This series is produced by BEATRICE OF RIZKA,
+          and sponsored by PPL, VISA and GIGGLES. It also airs on Rhythm 93.7FM
+          Abuja at 5pm on Fridays, Saturdays on Bandstand at 7pm and Sundays at
+          11am, and 5pm. Moni is a storyteller, musician, producer, fashion
+          blogger, and comedian. He is a Member of the Institute of Directors,
+          Nigeria; fellow of the Pan-Atlantic University, Nigeria and holds a
+          BSc in Electrical and Electronic Engineering, an MBA in Finance from
+          Pan Atlantic University, Lagos and has also taken an Executive Master
+          of Business Administration (EMBA) at INSEAD, France. He is based in
+          Lagos, Nigeria. He tweets @Mona1Mona. Download episode 1, episode 2,
+          episode 3, episode 4, episode 5, episode 6, and episode 7 on our
+          website.
         </p>
       </details>
       <h3>Episode 5: Mr Kumar</h3>

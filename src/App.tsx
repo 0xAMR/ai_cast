@@ -51,9 +51,7 @@ export default function App() {
           <p>
             <ul>
               <li>GPT-3 was provided with an initial sentence as input</li>
-              <li>
-                Upon text generation, the result was 'voiced' by AWS Polly
-              </li>
+              <li>Upon text generation, the result was voiced by AWS Polly</li>
               <li>The sound was edited using Audacity</li>
             </ul>
           </p>
