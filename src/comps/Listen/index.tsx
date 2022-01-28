@@ -46,9 +46,8 @@ export default function Listen({ ...props }) {
     <StListen>
       <h2>Listen</h2>
       <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error
-        reiciendis rem facilis, veniam labore laudantium voluptate sunt
-        recusandae autem repellendus.
+        A collection of GPT3-generated podcasts voiced by AWS Polly. Transcripts
+        included.
       </p>
       <h3>Episode 1: The End Is Near</h3>
       <AudioPlayer className="audio__player" src="/audio/ep1.mp3" />
